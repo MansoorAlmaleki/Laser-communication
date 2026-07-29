@@ -16,6 +16,8 @@ For the transmitter part the laser is not connected to the microcontrollers outp
 so a Low side NPN transistor switch is used for driving the laser diode where the current limited [laser diode](http://hiletgo.com/ProductDetail/2010704.html) sits between the supply+ and collector input.
 
 On the receiver end, the photodiode module has a fast stock response time but not fast enough for this system so it must be modified.
+<img src="https://github.com/MansoorAlmaleki/Laser-communication/blob/79f8d85cfc322a5ca72872cd71649728eb993798/misc/IMG_6289.GIF" width="500" alt="Transmitted image">
+*photodiode LM393 module schematic*
   
 ## License
 [MIT](https://github.com/MansoorAlmaleki/Laser-communication/blob/f93b1685b51eef905da93d90d014dedf51ae5748/LICENSE)
