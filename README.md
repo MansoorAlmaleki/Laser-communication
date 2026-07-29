@@ -53,6 +53,8 @@ It is normal to see that the signal width is shorter or longer than the set sign
 
 
 ## Creating a bitmap image
+The software used is gimp, import your desired image 
+into gimp then select the cropping tool and make sure the cropping ratio is set to a 1:1 or square ratio as the program treats the images as square format, next select the color mode and set the image to grayscale (Optional), lastly once that image is properly cropped scale the image to a resolution of 128 pixels or less on each axis and make sure the values are locked to maintain the crop ratio after that is done save the image as a .ppm in the folder directory “ImageToBinary/InputImage/“ and a pop up asking which formatting should be used should appear depending on the software used (gimp is recommended) once the pop up is shown select the ASCII format which will save the image as a PPM version 3 readable text, once these steps have been followed an image will be created at the folder directory, select the file and convert to a .txt so that it can be edited then delete the comment thats created in 
 
 ## License
 [MIT](https://github.com/MansoorAlmaleki/Laser-communication/blob/f93b1685b51eef905da93d90d014dedf51ae5748/LICENSE)
