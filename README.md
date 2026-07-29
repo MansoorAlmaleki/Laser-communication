@@ -11,7 +11,7 @@ A Free Space Optical communication system is a line of sight wireless technology
 * photodiode input module (photodiode LM393 module used)
 * laser transmitter
 
-**s**
+## Wiring
   
 ## License
 [MIT](https://github.com/MansoorAlmaleki/Laser-communication/blob/f93b1685b51eef905da93d90d014dedf51ae5748/LICENSE)
