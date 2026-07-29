@@ -28,7 +28,7 @@ so a sharp rise signal will be smoothed by the RC filter slowing down the respon
 This is done to the digital out (DO) pin too as the parasitic capacitance of the traces in combination with a huge resistor amplifies the RC time constant.
 Adding a 1k pull up between supply and digital out(DO) gives a parallel resistance of approximately 980 which decreases the RC time constant by a factor of 10, But be aware that the LM393 IC relies on an Open collector output meaning that when the comparator node is set to off it pulls down the pull up resistor and begins sinking current, and for safety the sinking current should be below 20mA, any more current will cause damage to the IC.
 
-Lastly, after all of these modifications the circuit should be much faster than the stock module.
+Lastly, after all of these modifications the response time of this circuit should be much faster than the stock module.
 
 ## Receiver calibration
 
