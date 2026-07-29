@@ -20,7 +20,7 @@ so a Low side NPN transistor switch is used for driving the laser diode where th
 On the receiver end, the photodiode module has a fast stock response time but not fast enough for this system so it must be modified.
 <img src="https://github.com/MansoorAlmaleki/Laser-communication/blob/79f8d85cfc322a5ca72872cd71649728eb993798/misc/IMG_6289.GIF" width="500" alt="Transmitted image">
 
-*photodiode LM393 module schematic*
+*photodiode LM393 module schematic(ACTIVE LOW)*
 
 To modify the photodiode module Capacitor(C2) is removed as it causes an unwanted low pass filter in combination with Resistor(R1), essentially its an RC circuit
 so a sharp rise signal will be smoothed by the RC filter slowing down the response time of the circuit, to combat it we remove capacitor C2 on the circuit board, and adding a 330 ohm pull up resistor between supply and analog pin (AO) reduces the total resistance of the photodiode high side resistor branch thus lowering the RC time constant. When a 330 ohm resistor is placed between supply and analog pin (AO) the circuit changes to a 10k resistor in parallel to a 330 ohm resistor which gives us approximately 320 ohms of parallel resistance and this change hugely changes the RC time constant for a faster response time
@@ -41,7 +41,10 @@ On the transmitter side open the code file at "SignalReference" and change the v
 ```c++
 #define SIGNAL 18
 ```
-
+Once that is done connect the signal pin to the low side npn input with a current limiting resistor of around 1k, and the laser should begin flashing 
+rapidly.
+Aim the laser at the photodiode module and hook up an oscilloscope input to the digital output (DO) of the photodiode module, set the oscilloscope mode to normal
+and once you see the signal refreshing on the screen you may use a horizontal cursor and align the start cursor to where the signal goes high
 
 ## License
 [MIT](https://github.com/MansoorAlmaleki/Laser-communication/blob/f93b1685b51eef905da93d90d014dedf51ae5748/LICENSE)
