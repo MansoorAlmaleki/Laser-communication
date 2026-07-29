@@ -3,7 +3,7 @@ A Free Space Optical communication system is a line of sight wireless technology
 
 # Results
 <img src="https://github.com/MansoorAlmaleki/Laser-communication/blob/77c3bf23cfd28e5b7b9846a931bacf16516aa4bd/misc/IMG_6317.PNG" width="1000" alt="Project Results">
-*completed transmission*
+**completed transmission**
 <img src="https://github.com/MansoorAlmaleki/Laser-communication/blob/3d0af95a7da16938e62e3ca2814fd5331e37cc7a/misc/BitmapImage.png" width="500" alt="Transmitted image">
 *Transmitted image*
 
