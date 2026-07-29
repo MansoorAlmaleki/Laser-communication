@@ -36,8 +36,11 @@ Lastly, after all of these modifications the response time of this circuit shoul
 uint32 SignalWidth = 30;//microseconds, an oscilloscope is used for calibrating the receiver side pulse width
 ```
 Adjust this value if needed, although the default value is fine for most cases.
-
 On the transmitter side open the code file at "SignalReference" and change the value of SIGNAL to the desired output pin
+
+```c++
+#define SIGNAL 18
+```
 
 
 ## License
