@@ -9,7 +9,7 @@ A Free Space Optical communication system is a line of sight wireless technology
 ## Required materials
 * microcontroller (Esp32 or faster is recommended)
 * photodiode input module (photodiode LM393 module used)
-* laser transmitter
+* laser diode
 
 ## Wiring
 For the transmitter part the laser is not connected to the microcontrollers output directly, this would either fry the output pin or would be too weak to drive
