@@ -60,7 +60,8 @@ into gimp then select the cropping tool and make sure the cropping ratio is set 
 Open the converted file and on row 2 there should be a comment created by gimp that should look something like this “# CREATED BY GIMP #” which should be deleted then save the file and run the main.exe program in the folder directory “ImageToBinary/InputImage/“ or compile the main.cpp code either way a console will appear which will ask you to write the name of the file that is in the “InputImage” directory, and if everything was done correctly a new file will be created in the folder directory “Output/” which is a Decimal file containing the average color values of the pixels in the image.
 
 ## Importing the Decimal file into the Transmitter program
-
+copy all of the components that is inside the file existing in the folder directory “ImageToBinary/Output/“.
+open up the transmitter program and 
 
 ## License
 [MIT](https://github.com/MansoorAlmaleki/Laser-communication/blob/f93b1685b51eef905da93d90d014dedf51ae5748/LICENSE)
