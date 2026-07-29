@@ -35,7 +35,7 @@ uint32_t BITWIDTH = 0;
 uint32_t BITSPACING = 17;
 
 void setup(){
-  Serial.begin(256000);
+  Serial.begin(500000);
 
   WiFi.disconnect(true); //turn off wifi and bluetooth to reduce interference
   WiFi.mode(WIFI_OFF); 
