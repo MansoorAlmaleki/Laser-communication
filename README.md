@@ -61,7 +61,13 @@ Open the converted file and on row 2 there should be a comment created by gimp t
 
 ## Importing the Decimal file into the Transmitter program
 copy all of the components that is inside the file existing in the folder directory “ImageToBinary/Output/“.
-open up the transmitter program and 
+
+open up the transmitter program code and set the ImageSize variable to the size of the included image (Not total pixels)
+
+```c++
+const uint8_t ImageSize = 128;
+```
+
 
 ## License
 [MIT](https://github.com/MansoorAlmaleki/Laser-communication/blob/f93b1685b51eef905da93d90d014dedf51ae5748/LICENSE)
