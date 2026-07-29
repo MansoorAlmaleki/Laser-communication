@@ -10,7 +10,7 @@ int main()
     unsigned int ResolutionX;
     unsigned int ResolutionY;
     unsigned int MaxValue;
-    unsigned int ImageSize = 128;//Square format only, Image size no more than 128 pixels
+    unsigned int MaxImageSize = 128;//Square format only, Image size no more than 128 pixels
     string Version;
 
     string FolderPath = "InputImage/";
@@ -43,7 +43,7 @@ int main()
         if(ImageFile.is_open()){
 
             ImageFile >> Version >> ResolutionX >> ResolutionY >> MaxValue;
-            if(Version == "P3" && ResolutionX <= ImageSize && ResolutionY <= ImageSize){
+            if(Version == "P3" && ResolutionX <= MaxImageSize && ResolutionY <= MaxImageSize){
                 break;
             }
             else{
