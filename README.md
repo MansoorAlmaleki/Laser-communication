@@ -32,6 +32,10 @@ Lastly, after all of these modifications the response time of this circuit shoul
 
 ## Receiver calibration
 
+```c++
+uint32 SignalWidth = 30;//microseconds, an oscilloscope is used for calibrating the receiver side pulse width
+```
+
 ## License
 [MIT](https://github.com/MansoorAlmaleki/Laser-communication/blob/f93b1685b51eef905da93d90d014dedf51ae5748/LICENSE)
 
