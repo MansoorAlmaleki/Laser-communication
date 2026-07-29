@@ -18,7 +18,7 @@ For the transmitter part the laser is not connected to the microcontrollers outp
 so a Low side NPN transistor switch is used for driving the laser diode where the current limited [laser diode](http://hiletgo.com/ProductDetail/2010704.html) sits between the supply and collector input.
 
 On the receiver end, the photodiode module has a fast stock response time but not fast enough for this system so it must be modified.
-<img src="https://github.com/MansoorAlmaleki/Laser-communication/blob/79f8d85cfc322a5ca72872cd71649728eb993798/misc/IMG_6289.GIF" width="500" alt="Transmitted image">
+<img src="https://github.com/MansoorAlmaleki/Laser-communication/blob/79f8d85cfc322a5ca72872cd71649728eb993798/misc/IMG_6289.GIF" width="500" alt="photodiode schematic">
 
 *photodiode LM393 module schematic (ACTIVE LOW)*
 
@@ -27,6 +27,8 @@ so a sharp rise signal will be smoothed by the RC filter slowing down the respon
 
 This is done to the digital out (DO) pin too as the parasitic capacitance of the traces in combination with a huge resistor amplifies the RC time constant.
 Adding a 1k pull up between supply and digital out(DO) gives a parallel resistance of approximately 980 which decreases the RC time constant by a factor of 10, But be aware that the LM393 IC relies on an Open collector output meaning that when the comparator node is set to off it pulls down the pull up resistor and begins sinking current, and for safety the sinking current should be below 20mA, any more current will cause damage to the IC.
+
+<img src="https://github.com/MansoorAlmaleki/Laser-communication/blob/0b873e963d6a9386ca1faef40aa2716e99392269/misc/ModifiedPhotodiode.jpeg" width="500" alt="Modifed photodiode board">
 
 Lastly, after all of these modifications the response time of this circuit should be much faster than the stock module.
 
