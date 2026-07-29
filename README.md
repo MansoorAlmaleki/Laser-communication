@@ -60,7 +60,6 @@ into gimp then select the cropping tool and make sure the cropping ratio is set 
 Open the converted file and on row 2 there should be a comment created by gimp that should look something like this “# CREATED BY GIMP #” which should be deleted then save the file and run the main.exe program in the folder directory “ImageToBinary/InputImage/“ or compile the main.cpp code either way a console will appear which will ask you to write the name of the file that is in the “InputImage” directory, and if everything was done correctly a new file will be created in the folder directory “Output/” which is a Decimal file containing the average color values of the pixels in the image.
 
 ## Importing the Decimal file into the Transmitter program
-copy all of the components that is inside the file existing in the folder directory “ImageToBinary/Output/“.
 
 open up the transmitter program code and set the ImageSize variable to the size of the included image (Not total pixels)
 
@@ -69,7 +68,8 @@ const uint8_t ImageSize = 128;
 ```
 *line 25*
 
-paste the copied data of the file inside the curly brackets of this array
+copy all of the components that is inside the file existing in the folder directory “ImageToBinary/Output/“ and
+paste the data inside the curly brackets of the array
 
 ```c++
 const uint8_t ImageData[ImageSize*ImageSize] = {};
