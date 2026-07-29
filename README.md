@@ -67,6 +67,12 @@ open up the transmitter program code and set the ImageSize variable to the size 
 ```c++
 const uint8_t ImageSize = 128;
 ```
+paste the copied component of the file inside the curly brackets of this array
+
+```c++
+const uint8_t ImageData[ImageSize*ImageSize] = {};
+```
+
 
 
 ## License
