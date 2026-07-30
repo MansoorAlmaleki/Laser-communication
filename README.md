@@ -15,7 +15,7 @@ A Free Space Optical communication system is a line of sight wireless technology
 
 ## Wiring
 For the transmitter part the laser diode should not be connected directly to the microcontroller output, as this would be too weak to drive the laser diode
-so a low side NPN transistor switch is used for driving the laser diode where the current limited [laser diode](http://hiletgo.com/ProductDetail/2010704.html) sits between the supply and collector input.
+so instead a low side NPN transistor switch is used for driving the [laser diode](http://hiletgo.com/ProductDetail/2010704.html).
 
 On the receiver end, a photodiode module is used, it has a fast response time but not fast enough for this project so it must be modified.
 
