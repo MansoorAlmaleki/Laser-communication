@@ -44,10 +44,9 @@ On the transmitter side open the code file at "SignalReference" and change the v
 ```c++
 #define SIGNAL 18
 ```
-Once that is done connect the signal pin to the low side npn input with a current limiting resistor of around 1k, and the laser should begin flashing 
+connect the signal pin to the low side npn input with a current limiting resistor of around 1k, and the laser should begin flashing 
 rapidly.
-Aim the laser at the photodiode module and hook up an oscilloscope input to the digital output (DO) of the photodiode module, set the oscilloscope mode to normal
-and once you see the signal refreshing on the screen you may use a horizontal cursor and align the start cursor(Left vertical line) to where the signal goes high and adjust the end cursor(Right vertical line) such that the width of the horizontal slice is around the set Signal Width which is 30 micro seconds in this case.
+Aim the laser at the photodiode module and hook up an oscilloscope input to the digital output (DO) of the photodiode module.
 
 It is normal to see that the signal width is shorter or longer than the set signal width, sometimes a poorly calibrated photodiode might be set to a too low/high sensitivity that its either always on or off and this is normal just turn the Blue potentiometer with a screwdriver in both directions until the signal has a width of the set signal width.
 
@@ -67,7 +66,7 @@ const uint8_t ImageSize = 128;
 *line 25*
 
 copy all of the components that is inside the file existing in the folder directory “ImageToBinary/Output/“ and
-paste the data inside the curly brackets of the array
+paste the data inside the the array
 
 ```c++
 const uint8_t ImageData[ImageSize*ImageSize] = {};
