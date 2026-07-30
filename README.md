@@ -31,8 +31,6 @@ Adding a 1k pull up between supply and digital out(DO) gives a parallel resistan
 
 <img src="https://github.com/MansoorAlmaleki/Laser-communication/blob/0b873e963d6a9386ca1faef40aa2716e99392269/misc/ModifiedPhotodiode.jpeg" width="500" alt="Modifed photodiode board">
 
-Lastly, after all of these modifications the response time of this circuit should be much faster than that of a stock module.
-
 ## Receiver calibration
 
 ```c++
