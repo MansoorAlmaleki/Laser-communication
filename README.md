@@ -75,7 +75,13 @@ const uint8_t ImageData[ImageSize*ImageSize] = {};
 
 ## Receiving data
 (while the transmitter is sending data be sure to not disrupt the signal as there is no error correction in this version of the code)
-On the receiver side when the transmission ends data will be printed to the Serial buffer which should be copied and pasted in a text file
+On the receiver side when the transmission ends data will be printed to the Serial buffer which should then be copied and pasted inside the file in the folder directory “DecimalToImage/Input/“.
+
+```c++
+
+```
+
+Run the main.exe program or compile the main.cpp code, once completed a bitmap image will be saved to the output folder.
 
 ## License
 [MIT](https://github.com/MansoorAlmaleki/Laser-communication/blob/f93b1685b51eef905da93d90d014dedf51ae5748/LICENSE)
