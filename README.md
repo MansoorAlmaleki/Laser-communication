@@ -56,7 +56,7 @@ Import your image into GIMP, use the Crop Tool with a locked ⁠1:1⁠ aspect ra
 
 ## Importing the Decimal file into the Transmitter program
 
-open up the transmitter program code and set the ImageSize variable to the size of the included image (Not total pixels)
+in transmitter program code set the ImageSize variable to the size of the included image (Not total pixels)
 
 ```c++
 const uint8_t ImageSize = 128;
