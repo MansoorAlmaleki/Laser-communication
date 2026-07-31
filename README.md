@@ -44,9 +44,9 @@ On the transmitter side open the code file at "SignalReference" and change the v
 ```
 connect the signal pin to the low side npn input with a current limiting resistor of around 1k, and the laser should begin flashing 
 rapidly.
-Aim the laser at the photodiode module and hook up an oscilloscope input to the digital output (DO) of the photodiode module.
+Aim the laser at the photodiode module and hook up an oscilloscope to the digital output (DO) of the photodiode module.
 
-It is normal to see that the signal width is shorter or longer than the set signal width, sometimes a poorly calibrated photodiode might be set to a too low/high sensitivity that its either always on or off and this is normal just turn the Blue potentiometer with a screwdriver in both directions until the signal has a width of the set signal width.
+On the screen pulses should appear and it is normal to see that the signal width is shorter or longer than the set signal width, sometimes a poorly calibrated photodiode might be set to a too low/high sensitivity that its either always on or off and this is normal just turn the Blue potentiometer with a screwdriver in both directions until the signal has a width of the set signal width.
 
 
 ## Creating a bitmap image
