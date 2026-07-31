@@ -83,7 +83,7 @@ int ImageResolution = 128;
 ```
 *line 11*
 
-Run the main.exe program or compile the main.cpp code, once completed a bitmap image will be saved to the output folder.
+Run the main.exe program or compile the main.cpp code. After completion a bitmap image will be saved to the output folder.
 
 ## License
 [MIT](https://github.com/MansoorAlmaleki/Laser-communication/blob/f93b1685b51eef905da93d90d014dedf51ae5748/LICENSE)
