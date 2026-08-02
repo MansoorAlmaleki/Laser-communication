@@ -92,7 +92,8 @@ Run the main.exe program or compile the main.cpp code. After completion a bitmap
 The signal waveform shows a transmitted frame. The long bits are represented as a 1 while the short bits are represented as a 0.
 
 
-Custom Binary protocol
+### Custom Binary protocol
+
 <img src="https://github.com/MansoorAlmaleki/Laser-communication/blob/6bcc2ea03610cc5592f51a4c807c28b277f0fa94/misc/IMG_6697.jpeg" width="750" alt="Binary protocl">
 
 
