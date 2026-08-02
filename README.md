@@ -87,8 +87,12 @@ Run the main.exe program or compile the main.cpp code. After completion a bitmap
 ## PWM waveform & Custom Binary protocol
 <img src="https://github.com/MansoorAlmaleki/Laser-communication/blob/457ed8cad1ebfdebb9a437ee194c57475b112a88/misc/PWMWaveform.jpeg" width="300" alt="PWM waveform">
 
-Binary protocol
-<img src="https://github.com/MansoorAlmaleki/Laser-communication/blob/6bcc2ea03610cc5592f51a4c807c28b277f0fa94/misc/IMG_6697.jpeg" width="750" alt="PWM waveform">
+The signal waveform shows a transmitted frame containing binary data. The long bits are represented as a 1 while the short bits are represented as a 0.
+In the given image the signal waveform can be decoded to
+
+
+Custom Binary protocol
+<img src="https://github.com/MansoorAlmaleki/Laser-communication/blob/6bcc2ea03610cc5592f51a4c807c28b277f0fa94/misc/IMG_6697.jpeg" width="750" alt="Binary protocl">
 
 
 
