@@ -75,7 +75,7 @@ const uint8_t ImageData[ImageSize*ImageSize] = {};
 
 On the receiver side when the transmission ends data will be printed to the Serial buffer which should then be copied and pasted inside the file in the folder directory “DecimalToImage/Input/“.
 
-Make sure the ImageResolution variable matches your image size. 
+the ImageResolution variable must match your image size. 
 
 ```c++
 int ImageResolution = 128;
