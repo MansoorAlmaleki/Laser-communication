@@ -90,7 +90,6 @@ Run the main.exe program or compile the main.cpp code. After completion a bitmap
 *The transmitted waveform used a different framing protocol using a Preamble, Counter Reset, and color data only.*
 
 The signal waveform shows a transmitted frame. The long bits are represented as a 1 while the short bits are represented as a 0.
-In the given image the signal waveform can be decoded to
 
 
 Custom Binary protocol
