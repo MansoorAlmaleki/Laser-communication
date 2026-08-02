@@ -84,6 +84,11 @@ int ImageResolution = 128;
 
 Run the main.exe program or compile the main.cpp code. After completion a bitmap image will be saved to the output folder.
 
+## PWM waveform & Binary protocol
+<img src="https://github.com/MansoorAlmaleki/Laser-communication/blob/457ed8cad1ebfdebb9a437ee194c57475b112a88/misc/PWMWaveform.jpeg" width="500" alt="PWM waveform">
+
+
+
 ## License
 [MIT](https://github.com/MansoorAlmaleki/Laser-communication/blob/f93b1685b51eef905da93d90d014dedf51ae5748/LICENSE)
 
