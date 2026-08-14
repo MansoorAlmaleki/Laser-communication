@@ -95,8 +95,7 @@ The signal waveform shows a received frame. The long bits represent 1, while the
 
 <img src="https://github.com/MansoorAlmaleki/Laser-communication/blob/6bcc2ea03610cc5592f51a4c807c28b277f0fa94/misc/IMG_6697.jpeg" width="750" alt="Binary protocl">
 
-
-
+On the receiver side, the program contains a state machine consisting of a 
 
 
 ## License
