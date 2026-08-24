@@ -98,7 +98,7 @@ The signal waveform shows a received frame. The long bits represent 1, while the
 On the receiver end, the program receives incoming bits, where an "on" bit increments the preamble counter by 1, and an "off" bit resets it to 0.
 When the preamble counter reaches a value of 9, it is reset back to 0, and a preamble check is flagged as true. As a result, the receiver begins shifting bits into the array, where the process is repeated until the array reaches its final index.
 
-Counter reset bits are used in order to stop false logging initiation by resetting the preamble counter every "off" bit. The preamble check conditional requires 9 successive "on" bits for it to be flagged as true, whereas the bit framing protocol only sends a maximum of 9 consecutive "on" bits at a time. Therefore, it is used for flagging the preamble check with certainty in order to minimize logging errors.
+Counter reset bits are used in order to stop false logging initiation by resetting the preamble counter every "off" bit. The preamble check conditional requires 9 successive "on" bits for it to be flagged as true, whereas the bit framing protocol only sends a maximum of 9 consecutive "on" bits at a time(ideally). Therefore, it is used for flagging the preamble check with certainty in order to minimize logging errors.
 
 
 ## License
