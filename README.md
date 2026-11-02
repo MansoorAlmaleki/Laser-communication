@@ -70,7 +70,7 @@ const uint8_t ImageData[ImageSize*ImageSize] = {};
 *line 28*
 
 ## Receiving data
-(while the transmitter is sending data be sure to not disrupt the signal as there is no error correction in this version of the code)
+(while the transmitter is sending data, be sure to not disrupt the signal as there is no error correction in this version of the code)
 
 On the receiver side, when the transmission ends, data will be printed to the serial buffer which should then be copied and pasted inside the file in the folder directory “DecimalToImage/Input/“.
 
