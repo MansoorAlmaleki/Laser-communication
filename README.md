@@ -100,6 +100,9 @@ When the preamble counter reaches a value of 9, it is reset back to 0, and a pre
 
 Counter reset bits are used in order to stop false logging initiation by resetting the preamble counter every "off" bit. The preamble check conditional requires 9 successive "on" bits for it to be flagged as true, whereas the bit framing protocol only sends a maximum of 9 consecutive "on" bits at a time(ideally). Therefore, it is used for flagging the preamble check with certainty in order to minimize logging errors.
 
+### Bit classification
+
+<img src="https://github.com/MansoorAlmaleki/Laser-communication/blob/c58f2e70aa6e3ef70625d3434b8a6e224d22d5fe/misc/BitClassificationDiagram.png" width="750" alt="Bit categorization diagram">
 
 ## License
 [MIT](https://github.com/MansoorAlmaleki/Laser-communication/blob/f93b1685b51eef905da93d90d014dedf51ae5748/LICENSE)
