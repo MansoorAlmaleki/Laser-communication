@@ -86,8 +86,6 @@ Run the main.exe program or compile the main.cpp code. After completion a bitmap
 ## PWM waveform & Custom Binary protocol
 <img src="https://github.com/MansoorAlmaleki/Laser-communication/blob/457ed8cad1ebfdebb9a437ee194c57475b112a88/misc/PWMWaveform.jpeg" width="300" alt="PWM waveform">
 
-*The Received waveform shows a different framing protocol consisting of a Preamble, Counter Reset, and color data only.*
-
 The signal waveform shows a received frame. The long bits represent 1, while the short bits represent 0.
 
 
