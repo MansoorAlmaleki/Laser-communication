@@ -45,7 +45,7 @@ connect the signal pin to the low side npn input with a current limiting resisto
 rapidly.
 Aim the laser at the photodiode module and hook up an oscilloscope to the digital output (DO) of the photodiode module.
 
-On the screen pulses should appear and it is normal to see that the signal width is shorter or longer than the set signal width. usually, a poorly calibrated photodiode might be set to a too low/high sensitivity that it's either always in active/inactiv operation. Moreover, to callibrate the module, the blue potentiometer is turned in either directions for adjusting the signal sensitivity. consequently, the pulse width of the recieved signal will take effect.
+During initital setup, on the oscilloscope, the pulse width may be largely deviated from theoretical width, and this is completely normal. As a poorly calibrated photodiode might be set to a too low/high sensitivity that it's either always in active/inactive operation. Furthermore, to callibrate the module, the blue potentiometer is turned in either directions for adjusting the signal sensitivity. consequently, the pulse width of the recieved signal will take effect.
 
 
 ## Creating a bitmap image
